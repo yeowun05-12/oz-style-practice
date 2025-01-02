@@ -3,8 +3,16 @@ import { flexMixin, fontMixin } from '../styled';
 import { gray, tagColor } from '../styled';
 
 const ContentContainer = styled.div`
-  ${flexMixin({ direction: 'column', align: 'flex-start', gap: '5' })}
+  ${flexMixin({
+    direction: 'column',
+    justify: 'center',
+    align: 'center',
+    gap: '5',
+  })}
+  margin-right: 30px;
   margin-bottom: 20px;
+  margin-top: 20px;
+
   img {
     width: 300px;
     border-radius: 10px;

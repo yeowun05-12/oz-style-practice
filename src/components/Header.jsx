@@ -12,6 +12,7 @@ const HeaderContainer = styled.header`
     li {
       ${fontMixin({ fontSize: '16', fontWeight: '400' })}
       list-style: none;
+      margin-left: 20px;
     }
   }
 `;
